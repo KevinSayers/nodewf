@@ -1,5 +1,5 @@
 process hello{
-	node 'memory: high'
+	pod=[nodeSelector: 'memory=high']
 
 	"""
 	echo "hello"
