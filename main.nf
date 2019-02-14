@@ -1,5 +1,5 @@
 process hello{
-	node 'cloud.google.com/gke-nodepool: highmem'
+	node 'memory: high'
 
 	"""
 	echo "hello"
